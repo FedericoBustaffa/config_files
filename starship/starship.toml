@@ -2,8 +2,7 @@
 "$schema" = 'https://starship.rs/config-schema.json'
 
 # PROMPT
-format = """
-$env_var\
+format = """$env_var\
 $username\
 $hostname\
 $localip\
@@ -83,7 +82,7 @@ add_newline = true
 
 [env_var.STARSHIP_DISTRO]
 default = ""
-style = "blue"
+style = "bold white"
 format = "[$env_value]($style)"
 
 [username]
@@ -105,7 +104,7 @@ truncate_to_repo = true
 read_only_style = "red"
 
 [status]
-disabled = false
+disabled = true
 
 [shell]
 fish_indicator = ""
@@ -124,4 +123,4 @@ disabled = false
 style = "bold red"
 
 [git_metrics]
-disabled = false
+disabled = true
