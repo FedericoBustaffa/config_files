@@ -1,0 +1,47 @@
+﻿# Get editor completions based on the config schema
+"$schema" = 'https://starship.rs/config-schema.json'
+
+# PROMPT
+format = "$all"
+
+add_newline = true
+
+[username]
+show_always = true
+
+[character]
+success_symbol = "[❯ ](bold green)"
+error_symbol = "[❯ ](bold red)"
+format = "$symbol"
+
+[cmd_duration]
+min_time = 2000
+show_milliseconds = true
+format = "time [$duration]($style)"
+
+[directory]
+truncation_length = 0
+truncate_to_repo = true
+read_only_style = "red"
+
+[status]
+disabled = false
+
+[shell]
+fish_indicator = ""
+powershell_indicator = "_"
+unknown_indicator = "mystery shell"
+style = "cyan bold"
+disabled = true
+
+[memory_usage]
+threshold = 75
+format = "RAM $ram_pct "
+disabled = false
+
+# GIT
+[git_branch]
+style = "bold red"
+
+[git_metrics]
+disabled = false
