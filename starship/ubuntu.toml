@@ -1,0 +1,78 @@
+﻿# Get editor completions based on the config schema
+"$schema" = 'https://starship.rs/config-schema.json'
+
+# PROMPT
+format = """$env_var\
+$username\
+$hostname\
+$localip\
+$directory\
+$git_branch\
+$git_commit\
+$git_state\
+$git_metrics\
+$git_status\
+$docker_context\
+$package\
+$c\
+$cmake\
+$java\
+$ocaml\
+$python\
+$memory_usage\
+$sudo\
+$cmd_duration\
+$line_break\
+$jobs\
+$battery\
+$time\
+$status\
+$shell\
+$character"""
+
+add_newline = true
+
+[env_var.STARSHIP_DISTRO]
+default = ""
+style = "bold white"
+format = "[$env_value]($style)"
+
+[username]
+show_always = true
+
+[character]
+success_symbol = "[❯ ](bold green)"
+error_symbol = "[❯ ](bold red)"
+format = "$symbol"
+
+[cmd_duration]
+min_time = 2000
+show_milliseconds = true
+format = "time [$duration]($style)"
+
+[directory]
+truncation_length = 0
+truncate_to_repo = true
+read_only_style = "red"
+
+[status]
+disabled = true
+
+[shell]
+fish_indicator = ""
+powershell_indicator = "_"
+unknown_indicator = "mystery shell"
+style = "cyan bold"
+disabled = true
+
+[memory_usage]
+threshold = 75
+format = "RAM $ram_pct "
+disabled = false
+
+# GIT
+[git_branch]
+style = "bold red"
+
+[git_metrics]
+disabled = true
