@@ -99,17 +99,17 @@ disabled = false
 
 [git_status]
 format = '([\[$all_status$ahead_behind\]]($style) )'
-conflicted = " ="
-ahead = " ⇡${ahead_count}"
-behind = " ⇣${behind_count}"
-diverged = " ⇕"
+conflicted = " = "
+ahead = " ⇡${ahead_count} "
+behind = " ⇣${behind_count} "
+diverged = " ⇕ "
 up_to_date = ""
-untracked = " "
-stashed = " $"
-modified = " "
-staged = '[++\($count\)](green)'
-renamed = " 襁"
-deleted = " "
+untracked = "  "
+stashed = " $ "
+modified = "  "
+staged = '[ +$count](green) '
+renamed = " 襁 "
+deleted = "  "
 ignore_submodules = false
 disabled = false
 
