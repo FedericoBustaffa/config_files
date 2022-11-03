@@ -74,7 +74,7 @@ format = '[\($hash$tag\)]($style) '
 style = "bold green"
 only_detached = false
 tag_disabled = false
-tag_max_candidate = 0
+# tag_max_candidate = 0
 tag_symbol = " 🏷 "
 disabled = false
 
