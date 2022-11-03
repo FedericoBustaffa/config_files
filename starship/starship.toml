@@ -76,7 +76,7 @@ only_detached = false
 tag_disabled = false
 # tag_max_candidate = 0
 tag_symbol = " 🏷 "
-disabled = false
+disabled = true
 
 [git_state]
 rebase = "REBASING"
