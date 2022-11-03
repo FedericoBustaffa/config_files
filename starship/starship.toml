@@ -29,12 +29,12 @@ add_newline = true
 
 [env_var.STARSHIP_DISTRO]
 default = ""
-style = "bold cyan"
+style = "202"
 format = "[$env_value]($style)"
 
 [username]
 style_root = "bold red"
-style_user = "bold green"
+style_user = "bold yellow"
 show_always = true
 disabled = false
 format = "[$user]($style) in "
