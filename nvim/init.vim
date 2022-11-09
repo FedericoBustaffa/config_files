@@ -13,5 +13,13 @@ set shiftwidth=4
 set softtabstop=4
 set mouse=v
 
-syntax on
+syntax enable
 
+call plug#begin()
+
+Plug 'https://github.com/rafi/awesome-vim-colorschemes'
+Plug 'https://github.com/preservim/nerdtree'
+
+call plug#end()
+
+colorscheme darkblue
