@@ -1,0 +1,23 @@
+{
+	"background": "#010112",
+	"black": "#000000",
+	"blue": "#0037DA",
+	"brightBlack": "#767676",
+	"brightBlue": "#3B78FF",
+	"brightCyan": "#61D6D6",
+	"brightGreen": "#4FFF45",
+	"brightPurple": "#B4009E",
+	"brightRed": "#FF2A2E",
+	"brightWhite": "#F2F2F2",
+	"brightYellow": "#F9F64C",
+	"cursorColor": "#FFFFFF",
+	"cyan": "#3A96DD",
+	"foreground": "#FFFFFF",
+	"green": "#19D412",
+	"name": "Dark Blue",
+	"purple": "#881798",
+	"red": "#C50F1F",
+	"selectionBackground": "#55FF50",
+	"white": "#CCCCCC",
+	"yellow": "#C19C00"
+}
