@@ -19,7 +19,13 @@ call plug#begin()
 
 Plug 'https://github.com/rafi/awesome-vim-colorschemes'
 Plug 'https://github.com/preservim/nerdtree'
+Plug 'https://github.com/neoclide/coc.nvim'
+Plug 'https://github.com/vim-airline/vim-airline'
+Plug 'https://github.com/clangd/coc-clangd'
 
 call plug#end()
 
-colorscheme darkblue
+colorscheme jellybeans
+
+set encoding=UTF-8
+
