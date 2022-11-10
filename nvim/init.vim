@@ -22,6 +22,8 @@ Plug 'https://github.com/preservim/nerdtree'
 Plug 'https://github.com/neoclide/coc.nvim'
 Plug 'https://github.com/vim-airline/vim-airline'
 Plug 'https://github.com/clangd/coc-clangd'
+Plug 'https://github.com/ryanoasis/vim-devicons'
+Plug 'https://github.com/tc50cal/vim-terminal'
 
 call plug#end()
 
