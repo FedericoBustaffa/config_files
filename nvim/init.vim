@@ -31,3 +31,5 @@ colorscheme jellybeans
 
 set encoding=UTF-8
 
+let g:python3_host_prog = '/path/to/python3'
+
