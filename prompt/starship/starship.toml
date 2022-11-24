@@ -138,3 +138,6 @@ disabled = true
 threshold = 75
 format = "RAM $ram_pct "
 disabled = false
+
+[ocaml]
+format = "via [$symbol($version )]($style)"
