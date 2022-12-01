@@ -19,17 +19,12 @@ call plug#begin()
 
 Plug 'https://github.com/rafi/awesome-vim-colorschemes'
 Plug 'https://github.com/preservim/nerdtree'
-Plug 'https://github.com/neoclide/coc.nvim'
 Plug 'https://github.com/vim-airline/vim-airline'
-Plug 'https://github.com/clangd/coc-clangd'
 Plug 'https://github.com/ryanoasis/vim-devicons'
-Plug 'https://github.com/tc50cal/vim-terminal'
 
 call plug#end()
 
 colorscheme jellybeans
 
 set encoding=UTF-8
-
-let g:python3_host_prog = '/path/to/python3'
 
